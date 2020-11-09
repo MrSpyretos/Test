@@ -14,7 +14,7 @@ namespace CrmAzure.Data
             optionsBuilder
                 .UseSqlServer(
                     "Server=tcp:mrspyretos.database.windows.net,1433;Initial Catalog=CrmAzure;Persist Security Info=False;" +
-                    "User ID=spylak;Password=ueh5235K;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                    "User ID=spylak;Password=****;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
